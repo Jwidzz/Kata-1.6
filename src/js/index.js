@@ -1,0 +1,10 @@
+import "@babel/polyfill";
+import '../index.html'
+import '../styles/style.scss'
+import './aside-burger'
+import './read-more'
+import './show-more-brand'
+import './show-more-service'
+import './swiper-brand'
+import './swiper-price'
+import './swiper-service'

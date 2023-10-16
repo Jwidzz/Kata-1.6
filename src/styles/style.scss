@@ -1,0 +1,47 @@
+  
+  @font-face {
+    font-family: "TT Lakes Regular";
+    src: url(../fonts/TTLakes-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "TT Lakes Medium";
+    src: url(../fonts/TTLakes-Medium.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "TT Lakes Bold";
+    src: url(../fonts/TTLakes-Bold.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  $bodycolor: #F8F8F8;
+  $menucolor:#FFF;
+  $titlecolor:#1B1C21;
+  $textcolor:#7E7E82;
+  $higlighter:#41F6D7;
+  $bordercolor:#EAEAEA;
+  $borderbottomcolor:#D9FFF5;
+  body{
+    background-color: $bodycolor;
+}
+
+@import 'body.scss';
+@import 'footer.scss';
+@import 'aside-burger.scss';
+@import 'popup-call.scss';
+@import 'popup-feedback.scss';
+@import 'main_block-header.scss';
+@import 'main_block-text.scss';
+@import 'main_block-title.scss';
+@import 'swiper-brand.scss';
+@import 'swiper-price.scss';
+@import 'swiper-service.scss';
+@import 'wrapper.scss';
+
+

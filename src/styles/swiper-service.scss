@@ -1,0 +1,108 @@
+.service {
+    background-color: #f8f8f8;
+  }
+  
+  .service .service__header {
+    padding: 1.7em;
+    background: linear-gradient(to right, #f8f8f8, #ffffff);
+    border-top: 1px solid #d9fff5;
+  }
+  .service .service__header .service__title {
+    color: #7e7e82;
+    font-family: "TT Lakes Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+  }
+  .service .service__slider {
+    padding: 16px 1.5em;
+    height: 220px;
+    background-color: #f8f8f8;
+  }
+  @media (min-width: 481px) {
+    .service .service__slider {
+      height: 180px;
+    }
+  }
+  .service .service__slider .service__slider--wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 3vw;
+    margin-bottom: 30px;
+  }
+  @media (min-width: 481px) {
+    .service .service__slider .service__slider--wrapper {
+      flex-wrap: wrap;
+    }
+  }
+  .service .service__slider .service__slider--wrapper .service__slide {
+    margin: 0;
+    padding: 0;
+    width: 224px;
+    height: 160px;
+  }
+  .service
+    .service__slider
+    .service__slider--wrapper
+    .service__slide
+    .card-service {
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    gap: 9px;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+  }
+  .service
+    .service__slider
+    .service__slider--wrapper
+    .service__slide
+    .card-service
+    .card-service__name {
+    align-self: start;
+    color: #1b1c21;
+    font-family: "TT Lakes Medium";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+  }
+  .service
+    .service__slider
+    .service__slider--wrapper
+    .service__slide
+    .card-service
+    .card-service__link {
+    align-self: flex-end;
+  }
+  @media (min-width: 480px) {
+    .service .service__slider .service__pagination {
+      display: none;
+    }
+  }
+  .service .button__show-more {
+    margin-left: 1.7em;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    color: #1b1c21;
+    font-family: "TT Lakes Medium";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    margin-bottom: 2vw;
+  }
+  @media (max-width: 481px) {
+    .service .button__show-more {
+      display: none;
+    }
+  }

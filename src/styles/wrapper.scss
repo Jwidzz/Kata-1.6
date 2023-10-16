@@ -1,0 +1,24 @@
+.wrapper {
+    position: relative;
+    background: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+  }
+  @media (min-width: 1230px) {
+    .wrapper {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+  }
+  .wrapper .content-box {
+    z-index: 4;
+    background: #f8f8f8;
+  }
+  .wrapper .content-box .main {
+    background: #f8f8f8;
+  }
+  .wrapper .content-box .main .main__wrapper {
+    background: #f8f8f8;
+  }
