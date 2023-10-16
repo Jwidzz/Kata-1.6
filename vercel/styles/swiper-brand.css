@@ -1,0 +1,74 @@
+.slider-brands__header {
+    background: linear-gradient(to right, #f8f8f8, #ffffff);
+    border-top: 1px solid #d9fff5;
+    width: 100%;
+    height: auto;
+    padding: 16px 1.5em;
+    color: #7e7e82;
+    font-family: "TT Lakes Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+  }
+  
+  .slider-brands {
+    background-color: #f8f8f8;
+    padding: 16px 1.5em;
+  }
+  .slider-brands .slider-brands__wrapper {
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    row-gap: 3vh;
+    -moz-column-gap: 3vh;
+    column-gap: 3vh;
+    flex-wrap: nowrap;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+  @media (min-width: 481px) {
+    .slider-brands .slider-brands__wrapper {
+      flex-wrap: wrap;
+      height: 140px;
+    }
+  }
+  .slider-brands .slider-brands__wrapper .slider-brands__item {
+    width: 240px;
+    height: 70px;
+  }
+  .slider-brands .slider-brands__wrapper .slider-brands__item .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+  }
+  .slider-brands .slider-brands__pagination {
+    margin-top: 15px;
+    background-color: #f8f8f8;
+  }
+  
+  .show-more__btn {
+    margin-left: 1.7em;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    color: #1b1c21;
+    font-family: "TT Lakes Medium";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    margin-bottom: 2vw;
+  }
+  @media (max-width: 481px) {
+    .show-more__btn {
+      display: none;
+    }
+  }
